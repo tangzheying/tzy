@@ -1,0 +1,11 @@
+@article{Su1979Soliton,
+  title={Soliton excitations in polyacetylene},
+  author={Su, W. P. and Schrieffer, J. R. and Heeger, A. J.},
+  journal={Physical Review B},
+  volume={22},
+  number={4},
+  pages={2099-2111},
+  year={1979},
+ keywords={petrofabric analysis;sulfides;scanning electron microscopy;electron channeling},
+ abstract={A theoretical analysis of the excitation spectrum of long-chain polyenes is presented. Because of the twofold degeneracy of the ground state of the dimerized chain, elementary excitations corresponding to topological solitons are obtained. The solitons can have three charge states $Q=0$. $\ifmmode\pm\else\textpm\fi{}e$. The neutral soliton has spin one-half while the charged solitons have spin zero. One electronic state is localized at the gap center for each soliton or antisoliton present. The soliton's energy of formation, length, mass, activation energy for motion, and electronic properties are calculated. These results are compared with experiment.},
+}

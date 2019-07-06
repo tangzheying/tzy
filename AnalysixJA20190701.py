@@ -1,51 +1,118 @@
-def AnalysixJA(filenm):
-    yihang = filenm.strip().split('\n')
-    for i in yihang:
-        #print(i)
-        if i != '':
-            #print(i.strip().split(':')[0].strip('{').strip('}'))
-            ls.append([i.strip().split(':')[0].strip('{').strip('}'),i.strip().split(':')[1]])
-    #print(ls)
-    for j in ls:
-        #print(j)
-        #print(j[0])
-        if j[0] == 'Title':
-            title = j[0]
-
-        if j[0] == 'Journal':
-            Journal = j[0]
-
-        if j[0] == 'Year':
-            Year = j[0]
-
-        if j[0] == 'Volume':
-            Volume = j[0]
-
-        if j[0] == 'Pages':
-            Pages = j[0]
-
-        if j[0] == 'Author':
-            #print(j[1])
-            #--这里Auls 不应该做为全局变量，应该为函数内变量---#
-            Auls.append(j[1])
-    return title
-
-
-
-
-
-if __name__ == '__main__':
-    file = open('./JournalArticle.txt', 'r', encoding='UTF-8')
-    nfile = file.read()
+def AnalysixJA(filenm, filetype):
     ls = []
-    zidian = {}
-    Auls = []
+    #zidian = {}
     Title = ''
     Journal = ''
     Year = ''
     Volume = ''
     Pages = ''
-    AnalysixJA(nfile)
-    #print(Auls[0] + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
-          #',' +Year + ',' + Volume + ',' + Pages)
-    print(Auls[0] + ',' + Auls[1] + ',' + Auls[2])
+    Auls = []
+    Author = ''
+    yihang = filenm.strip().split('\n')
+    if filetype == 1:
+        for i in yihang:
+            # print(i)
+            if i != '':
+                # print(i.strip().split(':')[0].strip('{').strip('}'))
+                ls.append([i.strip().split(':')[0].strip('{').strip('}'), i.strip().split(':')[1]])
+        # print(ls)
+        for j in ls:
+            # print(j)
+            # print(j[0])
+            if j[0] == 'Title':
+                Title = j[1]
+                # print(Title)
+                # print(j[1])
+
+            if j[0] == 'Journal':
+                Journal = j[1]
+
+            if j[0] == 'Year':
+                Year = j[1]
+
+            if j[0] == 'Volume':
+                Volume = j[1]
+
+            if j[0] == 'Pages':
+                Pages = j[1]
+
+            if j[0] == 'Author':
+                # print(j[1])
+                Auls.append(j[1])
+
+        geshi = Auls[0] + ',' + Auls[1] + ',' + Auls[2] + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
+                ',' + Year + ',' + Volume + ',' + Pages
+        return geshi
+
+    if filetype == 2:
+        #print(yihang)
+        for i in yihang:
+            #print(i.strip().split(' ', 1))
+            ls.append([i.strip().split(' ', 1)[0], i.strip().split(' ', 1)[1]])
+        #print(ls)
+        for j in ls:
+            if j[0] == '%T':
+                Title = j[1]
+            if j[0] == '%J':
+                Journal = j[1]
+            if j[0] == '%D':
+                Year = j[1]
+
+            if j[0] == '%V':
+                Volume = j[1]
+
+            if j[0] == '%P':
+                Pages = j[1]
+
+            if j[0] == '%A':
+                # print(j[1])
+                Auls.append(j[1])
+        geshi = Auls[0] + ',' + Auls[1] + ',' + Auls[2] + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
+              ',' + Year + ',' + Volume + ',' + Pages
+        return geshi
+
+    if filetype == 3:
+        #print(yihang)
+        for i in yihang:
+            if '=' in i:
+                #print(i.strip().strip(',').split('=')[0])
+                #print(i.strip().strip(',').split('=')[1].strip('{').strip('}'))
+                ls.append([i.strip().strip(',').split('=')[0], i.strip().strip(',').split('=')[1].strip('{').strip('}')])
+        #print(ls)
+        for j in ls:
+            if j[0] == 'title':
+                Title = j[1]
+
+            if j[0] == 'journal':
+                Journal = j[1]
+
+            if j[0] == 'year':
+                Year = j[1]
+
+            if j[0] == 'volume':
+                Volume = j[1]
+
+            if j[0] == 'pages':
+                Pages = j[1]
+
+            if j[0] == 'author':
+                Author = j[1]
+                #print(Author)
+
+        geshi = Author + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
+                    ',' + Year + ',' + Volume + ',' + Pages
+        print(geshi)
+        return geshi
+
+if __name__ == '__main__':
+    #filetype==1
+    #file = open('./filetype1.txt', 'r', encoding='UTF-8')
+    #filetype==2
+    #file = open('./filetype2.txt', 'r', encoding='UTF-8')
+    #filetype == 3
+    file = open('./filetype3.txt', 'r', encoding='UTF-8')
+    nfile = file.read()
+    #geshi = AnalysixJA(nfile, 1)
+    #geshi = AnalysixJA(nfile, 2)
+    geshi = AnalysixJA(nfile, 3)
+    #print(geshi)
