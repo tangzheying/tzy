@@ -101,18 +101,31 @@ def AnalysixJA(filenm, filetype):
 
         geshi = Author + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
                     ',' + Year + ',' + Volume + ',' + Pages
-        print(geshi)
+        #print(geshi)
         return geshi
 
-if __name__ == '__main__':
-    #filetype==1
-    #file = open('./filetype1.txt', 'r', encoding='UTF-8')
-    #filetype==2
-    #file = open('./filetype2.txt', 'r', encoding='UTF-8')
-    #filetype == 3
+def test_file1():
+    file = open('./filetype1.txt', 'r', encoding='UTF-8')
+    nfile = file.read()
+    geshi = AnalysixJA(nfile, 1)
+    print(geshi)
+
+def test_file2():
+    file = open('./filetype2.txt', 'r', encoding='UTF-8')
+    nfile = file.read()
+    geshi = AnalysixJA(nfile, 2)
+    print(geshi)
+
+def test_file3():
     file = open('./filetype3.txt', 'r', encoding='UTF-8')
     nfile = file.read()
-    #geshi = AnalysixJA(nfile, 1)
-    #geshi = AnalysixJA(nfile, 2)
     geshi = AnalysixJA(nfile, 3)
-    #print(geshi)
+    print(geshi)
+
+if __name__ == '__main__':
+    print('文件1测试')
+    test_file1()
+    print('文件2测试')
+    test_file2()
+    print('文件3测试')
+    test_file3()
