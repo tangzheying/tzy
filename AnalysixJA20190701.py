@@ -105,19 +105,19 @@ def AnalysixJA(filenm, filetype):
         return geshi
 
 def test_file1():
-    file = open('./filetype1.txt', 'r', encoding='UTF-8')
+    file = open('./doc/filetype1.txt', 'r', encoding='UTF-8')
     nfile = file.read()
     geshi = AnalysixJA(nfile, 1)
     print(geshi)
 
 def test_file2():
-    file = open('./filetype2.txt', 'r', encoding='UTF-8')
+    file = open('./doc/filetype2.txt', 'r', encoding='UTF-8')
     nfile = file.read()
     geshi = AnalysixJA(nfile, 2)
     print(geshi)
 
 def test_file3():
-    file = open('./filetype3.txt', 'r', encoding='UTF-8')
+    file = open('./doc/filetype3.txt', 'r', encoding='UTF-8')
     nfile = file.read()
     geshi = AnalysixJA(nfile, 3)
     print(geshi)
