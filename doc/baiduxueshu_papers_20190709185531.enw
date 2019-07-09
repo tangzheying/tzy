@@ -1,0 +1,128 @@
+%0 Journal Article
+%T The soliton laser.
+%A Mollenauer, L. F.
+%A Stolen, R. H.
+%J Optics Letters
+%V 9
+%N 1
+%P 13-5
+%D 1984
+%K Fiber Optics;Laser Mode Locking;Solitary Waves;Ultrashort Pulsed Lasers;Color Centers;Feedback Control;Nonlinear Optics;Polarization Characteristics;Propagation Modes
+%X The soliton laser, a novel concept in ultrashort-pulse lasers, is a mode-locked laser using pulse compression and solitons in a single-mode fiber to force the laser itself to produce pulses of a well-
+
+
+%0 Journal Article
+%T Soliton excitations in polyacetylene
+%A Su, W. P.
+%A Schrieffer, J. R.
+%A Heeger, A. J.
+%J Physical Review B
+%V 22
+%N 4
+%P 2099-2111
+%D 1979
+%K petrofabric analysis;sulfides;scanning electron microscopy;electron channeling
+%X A theoretical analysis of the excitation spectrum of long-chain polyenes is presented. Because of the twofold degeneracy of the ground state of the dimerized chain, elementary excitations corresponding to topological solitons are obtained. The solitons can have three charge states $Q=0$. $\ifmmode\pm\else\textpm\fi{}e$. The neutral soliton has spin one-half while the charged solitons have spin zero. One electronic state is localized at the gap center for each soliton or antisoliton present. The soliton's energy of formation, length, mass, activation energy for motion, and electronic properties are calculated. These results are compared with experiment.
+
+
+%0 Journal Article
+%T The soliton: A new concept in applied science
+%A Scott, A. C.
+%A Chu, F.Y.F.
+%A McLaughlin, D.W.
+%J Proc IEEE
+%V 61
+%N 10
+%P 1443-1483
+%D 1973
+%K Boats;Foot;Inverse problems;Lattices;Nonlinear equations;Partial differential equations;Pulse shaping methods;Shape;Solitons;Stability
+%X ABSTRACT The term soliton has recently been coined to describe a pulselike nonlinear wave (solitary wave) which emerges from a collision with a similar pulse having unchanged shape and speed. To date at least seven distinct wave systems, representing a wide range of applications in applied science, have been found to exhibit such solutions. This review paper covers the current status of soliton research, paying particular attention to the very important "inverse method" whereby the initial value problem for a nonlinear wave system can be solved exactly through a succession of linear calculations.
+
+
+%0 Journal Article
+%T Direct Methods in Soliton Theory
+%A Hirota, R.
+%D 1980
+%X The main purpos e of this chapter is to present a direct and systematic way of finding exact solutions and Bäcklund transformations of a certain class of nonlinear evolution equations. The nonlinear...
+
+
+%0 Journal Article
+%T Erratum: Soliton excitations in polyacetylene
+%A Su, W. P
+%A Schrieffer, J. R
+%A Heeger, A. J
+%J Physical Review B
+%V 28
+%N 28
+%P 1138
+%D 1983
+%X Phys. Rev. B 28, 1138 (1983)
+
+
+%0 Book
+%T The Direct Method in Soliton Theory
+%A Hirota, Ryogo
+%D 2004
+%X Summary not Available
+
+
+%0 Journal Article
+%T Theory of the soliton self-frequency shift.
+%A Gordon, J. P.
+%J Optics Letters
+%V 11
+%N 10
+%P 659-661
+%D 1986
+%K SOLITONS;FEMTOSECOND PHENOMENA;NONLINEAR OPTICS;FIBERS: SINGLE-MODE;RAMAN EFFECT
+%X Abstract We describe the experimental discovery of a continuous shift in the optical frequency of a soliton pulse as it travels down the fiber. The effect is caused by a Raman self-pumping of the soliton, by which energy is transferred from the higher to the lower-frequency parts of its spectrum. For 120-fsec pulses, we have observed net frequency shifts as great as 10% of the optical frequency.
+
+
+%0 Journal Article
+%T Formation and propagation of matter-wave soliton trains
+%A Strecker, Kevin E.
+%A Partridge, Guthrie B.
+%A Truscott, Andrew G.
+%A Hulet, Randall G.
+%J Nature
+%V 417
+%N 6885
+%P 150-3
+%D 2002
+%K robust adaptive planning;agent-based modeling;deep uncertainty;complex adaptive systems;computer-assisted reasoning
+%X Attraction between the atoms of a Bose-Einstein condensate renders it unstable to collapse, although a condensate with a limited number of atoms can be stabilized by confinement in an atom trap. However, beyond this number the condensate collapses. Condensates constrained to one-dimensional motion with attractive interactions are predicted to form stable solitons, in which the attractive forces exactly compensate for wave-packet dispersion. Here we report the formation of bright solitons of (7)Li atoms in a quasi-one-dimensional optical trap, by magnetically tuning the interactions in a stable Bose-Einstein condensate from repulsive to attractive. The solitons are set in motion by offsetting the optical potential, and are observed to propagate in the potential for many oscillatory cycles without spreading. We observe a soliton train, containing many solitons; repulsive interactions between neighbouring solitons are inferred from their motion.
+
+
+%0 Journal Article
+%T Highly Efficient Tunable Raman Soliton by Optimized Chirp at 2 µm
+%A Sun, Biao
+%A Tan, Eng Leong
+%A Luo, Jiaqi
+%A Ji, Junhua
+%A Xia, Yu
+%J Neuron
+%V 52
+%N 1
+%P 39-59
+%D 2017
+%K Neuroglia;Motor Neurons;Mitochondria;Animals;Humans;Amyotrophic Lateral Sclerosis;Inflammation;Superoxide Dismutase;Cell Death;Axonal Transport
+%X High efficiency femtosecond Raman soliton generation up to 97% is demonstrated by optimizing chirp value in a Tm-doped silica fiber laser. The output wavelength can be continuously tuned from 1.98 to 2.31 µm.
+
+
+%0 Journal Article
+%T Graphene mode locked, wavelength-tunable, dissipative soliton fiber laser
+%A Han, Zhang
+%A Tang, Dingyuan
+%A Knize, R. J.
+%A Zhao, Luming
+%A Bao, Qiaoliang
+%A Loh, Kian Ping
+%J Applied Physics Letters
+%V 96
+%N 11
+%P 51
+%D 2010
+%K Optical solitons;Fiber lasers;Graphene;Laser resonators;Birefringence
+%X Atomic layer graphene possesses wavelength-insensitive ultrafast saturable absorption, which can be exploited as a “full-band” mode locker. Taking advantage of the wide band saturable absorption of the graphene, we demonstrate experimentally that wide range (1570–1600 nm) continuous wavelength tunable dissipative solitons could be formed in an erbium doped fiber laser mode locked with few layer graphene.
+
+
