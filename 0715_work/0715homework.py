@@ -31,7 +31,11 @@ if __name__ == '__main__':
             i = int(i)
         except ValueError as e:
             print('error', e)
-            ls.append(i)
+            try:
+                i = float(i)
+                ls.append(i)
+            except ValueError as e:
+                ls.append(i)
         else:
             ls.append(i)
         finally:
