@@ -40,7 +40,7 @@ def AnalysixJA(filenm, filetype):
                 # print(j[1])
                 Auls.append(j[1])
 
-        geshi = Auls[0] + ',' + Auls[1] + ',' + Auls[2] + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
+        geshi = ','.join(Auls) + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
                 ',' + Year + ',' + Volume + ',' + Pages
         return geshi
 
@@ -67,7 +67,7 @@ def AnalysixJA(filenm, filetype):
             if j[0] == '%A':
                 # print(j[1])
                 Auls.append(j[1])
-        geshi = Auls[0] + ',' + Auls[1] + ',' + Auls[2] + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
+        geshi = ','.join(Auls) + ',' + Title + '[' + 'J' + ']' + ',' + Journal + \
               ',' + Year + ',' + Volume + ',' + Pages
         return geshi
 
