@@ -1,0 +1,12 @@
+%0 Conference Proceedings
+%E Barzilay, Regina
+%E Kan, Min-Yen
+%D 2017
+%T Proceedings of the 55th Annual Meeting of the Association for
+%B Proceedings of the 55th Annual Meeting of the Association for
+%C Vancouver, Canada
+%I Association for Computational Linguistics
+%1 Stroudsburg, PA, USA
+%R 10.18653/v1/P17-2
+%! Barzilay, Kan (Ed.) 2017 – Proceedings of the 55th Annual
+%~ CrossRef
