@@ -1,0 +1,47 @@
+%0 Journal Article
+%T Soliton excitations in polyacetylene
+%A Su, W. P.
+%A Schrieffer, J. R.
+%A Heeger, A. J.
+%J Physical Review B
+%V 22
+%N 4
+%P 2099-2111
+%D 1979
+%K petrofabric analysis;sulfides;scanning electron microscopy;electron channeling
+%X A theoretical analysis of the excitation spectrum of long-chain polyenes is presented. Because of the twofold degeneracy of the ground state of the dimerized chain, elementary excitations corresponding to topological solitons are obtained. The solitons can have three charge states $Q=0$. $\ifmmode\pm\else\textpm\fi{}e$. The neutral soliton has spin one-half while the charged solitons have spin zero. One electronic state is localized at the gap center for each soliton or antisoliton present. The soliton's energy of formation, length, mass, activation energy for motion, and electronic properties are calculated. These results are compared with experiment.
+
+
+%0 Book
+%T Soliton equations and Hamiltonian systems
+%A Dickey, Leonid A
+%D 2003
+%K 理论力学
+%X The theory of soliton equations and integrable systems has developed rapidly during the last 30 years with numerous applications in mechanics and physics. For a long time, books in this field have not been written but the flood of papers was overwhelming: many hundreds, maybe thousands of them. All this output followed one single work by Gardner, Green, Kruskal, and Mizura on the Korteweg-de Vries equation (KdV), which had seemed to be merely an unassuming equation of mathematical physics describing waves in shallow water.Besides its obvious practical use, this theory is attractive also because it satisfies the aesthetic need in a beautiful formula which is so inherent to mathematics.The second edition is up-to-date and differs from the first one considerably. One third of the book (five chapters) is completely new and the rest is refreshed and edited.
+
+
+%0 Journal Article
+%T The soliton: A new concept in applied science
+%A Scott, Alwyn C
+%A Chu, F. Y. F
+%A Mclaughlin, David W
+%J Proc IEEE
+%V 61
+%N 10
+%P 1443-1483
+%D 1973
+%K Boats;Foot;Inverse problems;Lattices;Nonlinear equations;Partial differential equations;Pulse shaping methods;Shape;Solitons;Stability
+%X ABSTRACT The term soliton has recently been coined to describe a pulselike nonlinear wave (solitary wave) which emerges from a collision with a similar pulse having unchanged shape and speed. To date at least seven distinct wave systems, representing a wide range of applications in applied science, have been found to exhibit such solutions. This review paper covers the current status of soliton research, paying particular attention to the very important "inverse method" whereby the initial value problem for a nonlinear wave system can be solved exactly through a succession of linear calculations.
+
+
+%0 Journal Article
+%T Erratum: Soliton excitations in polyacetylene
+%A Su, W. P
+%A Schrieffer, J. R
+%A Heeger, A. J
+%J Physical Review B
+%V 28
+%N 28
+%P 1138
+%D 1983
+%X Phys. Rev. B 28, 1138 (1983)
