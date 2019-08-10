@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b12d9c9-b1e6-4977-8965-f89d5b040e68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wenxian/conference.py" afterDir="false" />
+    <list default="true" id="9b12d9c9-b1e6-4977-8965-f89d5b040e68" name="Default Changelist" comment="作业mst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
     <SUITE FILE_PATH="coverage/tzy_cite_check$conference.coverage" NAME="conference Coverage Results" MODIFIED="1564914867811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wenxian" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,6 +69,11 @@
               <item name="tzy_cite_check" type="b2602c69:ProjectViewProjectNode" />
               <item name="tzy_cite_check" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tzy_cite_check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tzy_cite_check" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,7 +83,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/1Yong/codes/SurvivalAnalysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -199,7 +203,9 @@
       <workItem from="1563759396560" duration="988000" />
       <workItem from="1564205997621" duration="16139000" />
       <workItem from="1564364321993" duration="623000" />
-      <workItem from="1564908014026" duration="7233000" />
+      <workItem from="1564908014026" duration="7490000" />
+      <workItem from="1564969094232" duration="596000" />
+      <workItem from="1565432321769" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1562210494453</created>
@@ -271,21 +277,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564364426366</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="作业mst">
+      <created>1564918802032</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564918802033</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34361000" />
+    <option name="totallyTimeSpent" value="35707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2516129" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2516129" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
