@@ -4,6 +4,7 @@ def AnalyManyLine(nnf):
         # print(i)
         for j in i.strip('').split('\n'):
             if j != '':
+                # 这一句，如果不满足该条件，WXtype 就没有，然后WXtype 就会出现未定义
                 if j.strip().split(' ', 1)[0] == '%0':
                     WXtype = j.strip().split(' ', 1)[1]
         # print(WXtype)
@@ -125,7 +126,7 @@ def AnalysixJA(filenm, filetype):
 
 if __name__ == '__main__':
     # 读取多行文件
-    file = open('D:/PycharmProjects/learn/doc/manyline.enw', 'r', encoding='utf-8')
+    file = open('./manyline.enw', 'r', encoding='utf-8')
     nf = file.read()
     # print(type(nf))
     nnf = nf.strip('').split('\n\n')
